@@ -1,0 +1,25 @@
+.contentContainer {
+  display: flex;
+  flex-direction: column;
+  padding: var(--spacing-md);
+}
+
+.contentContainer label, .contentContainer input {
+  margin-bottom: var(--spacing-sm);
+}
+
+.contentContainer button {
+  background-color: var(--main-green);
+  color: var(--white);
+  padding: var(--spacing-md);
+}
+
+.successMsg {
+  text-align: center;
+  margin-bottom: var(--spacing-sm);
+}
+
+.error {
+  color: red;
+  margin-bottom: var(--spacing-sm);
+}

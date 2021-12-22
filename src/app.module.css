@@ -1,0 +1,41 @@
+:root {
+  --main-green: #00a826;
+  --white: white;
+  --black: black;
+  --spacing-sm: 0.5rem;
+  --spacing-md: 1rem;
+  --spacing-lg: 1.2rem;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+button {
+  border: none;
+}
+
+input {
+  padding: var(--spacing-sm);
+  border: 1px solid #cacaca;
+}
+
+a {
+  text-decoration: none;
+}
+
+.main {}
+
+.background {
+  background-image: url("https://betway.com/4toscore/images/hero_desktop.jpg");
+  background-repeat: no-repeat;
+  background-position: right;
+  background-attachment: fixed;
+  position: absolute;
+  width: 100vw;
+  height: 100vh;
+  top: 0;
+  z-index: -1;
+}

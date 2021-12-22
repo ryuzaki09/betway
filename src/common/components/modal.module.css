@@ -1,0 +1,36 @@
+.modalWrapper {
+  position: fixed;
+  top: 0;
+  z-index: 2;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  width: 100%;
+}
+
+.container {
+  background-color: var(--white);
+  position: relative;
+  max-width: 600px;
+  width: 100%;
+}
+
+.header {
+  display: flex;
+  justify-content: center;
+  margin: var(--spacing-md);
+}
+
+.title {
+  font-weight: 700;
+  font-size: 16pt;
+}
+
+.closeBtn {
+  position: absolute;
+  right: 0;
+  top: 0;
+  margin: var(--spacing-md);
+  cursor: pointer;
+}

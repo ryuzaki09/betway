@@ -1,0 +1,38 @@
+.container {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  padding: var(--spacing-lg);
+  border-top: 1px solid #cacaca;
+}
+
+.container p {
+  text-align: center;
+}
+
+.fieldRow {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: var(--spacing-sm);
+}
+
+.loginBtn {
+  background-color: var(--main-green);
+  color: var(--white);
+  padding: var(--spacing-md);
+}
+
+.forgotCredentials {
+  color: var(--main-green);
+  font-weight: 500;
+}
+
+.register {
+  text-align: center;
+  margin-bottom: var(--spacing-md);
+}
+
+.formError {
+  color: red;
+  margin-bottom: var(--spacing-sm);
+}

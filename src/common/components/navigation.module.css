@@ -1,0 +1,17 @@
+.container {
+  background-color: black;
+  opacity: 0.8;
+  color: white;
+  display: flex;
+}
+
+.container li {
+  padding: var(--spacing-md);
+  text-align: center;
+  width: 100%;
+  cursor: pointer;
+}
+
+.container li a {
+  color: var(--white);
+}

@@ -1,0 +1,20 @@
+.container {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+}
+
+.content {
+  background-color: var(--black);
+  color: var(--white);
+  opacity: 0.8;
+  padding: var(--spacing-md);
+  text-align: center;
+}
+
+.joinBtn {
+  background-color: var(--main-green);
+  color: var(--white);
+  padding: var(--spacing-sm);
+  width: 80%;
+}
