@@ -19,6 +19,7 @@ export function Login({ onLoginCallback }: { onLoginCallback?: () => void }) {
 
     if (!username.trim() || !password.trim()) {
       setFormError("All fields are required");
+      return
     }
 
     await userApi.login({
